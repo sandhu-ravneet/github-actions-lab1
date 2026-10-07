@@ -16,3 +16,15 @@ jobs:
 
       - name: Show Operating System
         run: uname -a
+
+      - name: Show Python Version
+        run: python --version
+
+      - name: Show Git Version
+        run: git --version
+
+      - name: Show Current Directory
+        run: pwd
+
+      - name: Show Files
+        run: ls -la
